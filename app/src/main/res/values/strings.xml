@@ -1,0 +1,20 @@
+<resources>
+  <string name="app_name">DA Direito Fafram</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="fragment_first_info_qrcode">Clique no botão para abrir a câmera e capturar o QRCode</string>
+  <string name="fragment_first_read_barcode">Ler QRCode</string>
+  <string name="ok">OK</string>
+
+  <!--BARCODE-->
+  <string name="permission_camera_rationale">É necessário permitir acesso à câmera</string>
+  <string name="no_camera_permission">Este aplicativo não pode ser executado porque não possui a permissão da câmera. O aplicativo será encerrado agora.</string>
+  <string name="low_storage_error">As dependências do detector de face não podem ser baixadas devido ao baixo armazenamento do dispositivo</string>
+  <string name="barcode_success">Sucesso</string>
+  <string name="barcode_failure">Nenhum QRCode capturado</string>
+  <string name="barcode_error">"Erro ao ler QRCode %1$s"</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
