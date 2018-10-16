@@ -4,7 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import com.tablelayout.javacodegeeks.academico.Fragments.PresencaFragment;
-import com.tablelayout.javacodegeeks.academico.Fragments.SecondFragment;
+import com.tablelayout.javacodegeeks.academico.Fragments.ParticipantesFragment;
 
 public class PagerAdapter extends FragmentPagerAdapter {
 
@@ -22,7 +22,7 @@ public class PagerAdapter extends FragmentPagerAdapter {
                 PresencaFragment tab1 = new PresencaFragment();
                 return tab1;
             case 1:
-                SecondFragment tab2 = new SecondFragment();
+                ParticipantesFragment tab2 = new ParticipantesFragment();
                 return tab2;
             default:
                 return null;

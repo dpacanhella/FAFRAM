@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import com.tablelayout.javacodegeeks.academico.Adapters.PagerAdapter;
+import com.tablelayout.javacodegeeks.academico.Fragments.ParticipantesFragment;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -14,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("Presenças"));
-        tabLayout.addTab(tabLayout.newTab().setText("Aprovados"));
+        tabLayout.addTab(tabLayout.newTab().setText("Participantes"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                viewPager.setCurrentItem(tab.getPosition());
+              viewPager.setCurrentItem(tab.getPosition());
             }
 
             @Override

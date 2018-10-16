@@ -45,9 +45,6 @@ import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.vision.MultiProcessor;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
-import com.tablelayout.javacodegeeks.academico.Camera.CameraSource;
-import com.tablelayout.javacodegeeks.academico.Camera.CameraSourcePreview;
-import com.tablelayout.javacodegeeks.academico.Camera.GraphicOverlay;
 import com.tablelayout.javacodegeeks.academico.R;
 import java.io.IOException;
 
