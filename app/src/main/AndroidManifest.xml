@@ -30,7 +30,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Barcode.BarcodeCaptureActivity"
+        <activity android:name=".barcodereader.BarcodeCaptureActivity"
           android:label="Read Barcode"
           android:screenOrientation="portrait"/>
     </application>

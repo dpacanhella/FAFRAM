@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.tablelayout.javacodegeeks.academico.Barcode;
+package com.tablelayout.javacodegeeks.academico.barcodereader.ui.camera;
 
 import android.Manifest;
 import android.content.Context;

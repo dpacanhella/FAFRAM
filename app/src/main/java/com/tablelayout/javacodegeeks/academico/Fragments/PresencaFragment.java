@@ -16,7 +16,7 @@ import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
 import com.pepperonas.materialdialog.MaterialDialog;
-import com.tablelayout.javacodegeeks.academico.Barcode.BarcodeCaptureActivity;
+import com.tablelayout.javacodegeeks.academico.barcodereader.BarcodeCaptureActivity;
 import com.tablelayout.javacodegeeks.academico.R;
 import cz.msebera.android.httpclient.Header;
 

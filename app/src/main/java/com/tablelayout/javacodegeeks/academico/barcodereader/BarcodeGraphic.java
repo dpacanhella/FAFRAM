@@ -13,13 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.tablelayout.javacodegeeks.academico.Barcode;
+package com.tablelayout.javacodegeeks.academico.barcodereader;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import com.google.android.gms.vision.barcode.Barcode;
+import com.tablelayout.javacodegeeks.academico.barcodereader.ui.camera.GraphicOverlay;
 
 /**
  * Graphic instance for rendering barcode position, size, and ID within an associated graphic

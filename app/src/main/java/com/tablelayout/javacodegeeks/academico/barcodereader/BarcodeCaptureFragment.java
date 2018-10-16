@@ -1,4 +1,4 @@
-package com.tablelayout.javacodegeeks.academico.Barcode;
+package com.tablelayout.javacodegeeks.academico.barcodereader;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -27,6 +27,9 @@ import com.google.android.gms.vision.MultiProcessor;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
 import com.tablelayout.javacodegeeks.academico.R;
+import com.tablelayout.javacodegeeks.academico.barcodereader.ui.camera.CameraSource;
+import com.tablelayout.javacodegeeks.academico.barcodereader.ui.camera.CameraSourcePreview;
+import com.tablelayout.javacodegeeks.academico.barcodereader.ui.camera.GraphicOverlay;
 
 public class BarcodeCaptureFragment extends Fragment implements BarcodeGraphicTracker.BarcodeDetectorListener {
 
