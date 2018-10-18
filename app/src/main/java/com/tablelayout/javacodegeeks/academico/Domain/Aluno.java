@@ -3,6 +3,7 @@ package com.tablelayout.javacodegeeks.academico.Domain;
 public class Aluno {
     private String qtdePresenca;
     private String nomeAluno;
+    private String codigoAluno;
 
   public String getQtdePresenca() {
     return qtdePresenca;
@@ -18,5 +19,13 @@ public class Aluno {
 
   public void setNomeAluno(String nomeAluno) {
     this.nomeAluno = nomeAluno;
+  }
+
+  public String getCodigoAluno() {
+    return codigoAluno;
+  }
+
+  public void setCodigoAluno(String codigoAluno) {
+    this.codigoAluno = codigoAluno;
   }
 }

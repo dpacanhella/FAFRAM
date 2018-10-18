@@ -21,16 +21,16 @@
     android:id="@+id/fragment_second_list_view"
     android:layout_width="341dp"
     android:layout_height="318dp"
-    android:scrollbars="vertical"
     android:layout_marginTop="18dp"
-    android:layout_marginBottom="31dp"
+    android:layout_marginBottom="21dp"
     android:layout_marginStart="16dp"
     android:layout_marginEnd="16dp"
-    android:layout_above="@+id/read_barcode"
+    android:layout_above="@+id/editText_enviarAprovados"
     android:layout_alignParentEnd="true"
     android:layout_alignParentStart="true"
     android:layout_below="@+id/textView_second"
-    android:clipToPadding="false"/>
+    android:clipToPadding="false"
+    android:scrollbars="vertical"/>
 
   <com.github.rahatarmanahmed.cpv.CircularProgressView
     android:id="@+id/progress_bar"
@@ -41,13 +41,30 @@
     app:cpv_color="@color/red_700"
     app:cpv_indeterminate="true" />
 
+  <EditText
+    android:id="@+id/editText_enviarAprovados"
+    android:layout_width="113dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="9dp"
+    android:layout_marginStart="18dp"
+    android:layout_marginEnd="17dp"
+    android:layout_alignBaseline="@+id/send_list_aprovados"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:layout_toStartOf="@+id/send_list_aprovados"
+    android:hint="0"
+    android:maxLength="1"
+    android:numeric="integer"
+    android:textColorLink="@color/blue_800"/>
+
   <Button
-    android:id="@+id/read_barcode"
+    android:id="@+id/send_list_aprovados"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="31dp"
+    android:layout_marginBottom="15dp"
+    android:layout_marginEnd="1dp"
+    android:layout_alignEnd="@+id/fragment_second_list_view"
     android:layout_alignParentBottom="true"
-    android:layout_centerHorizontal="true"
     android:text="@string/fragment_second_send_list"/>
 
 </RelativeLayout>
